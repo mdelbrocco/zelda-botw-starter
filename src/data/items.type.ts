@@ -1,4 +1,4 @@
-type ItemType = {
+export type ItemType = {
   name: string;
   category: string;
   icon: string;
@@ -8,8 +8,6 @@ type ItemType = {
   isNew?: boolean;
 };
 
-type ItemsType = {
+export type ItemsType = {
   [key: string]: ItemType[];
 };
-
-export default ItemsType;
